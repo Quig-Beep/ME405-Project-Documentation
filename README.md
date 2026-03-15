@@ -1,2 +1,4 @@
 # ME405-Project-Documentation
-Full documentation of our project from start to finish including individual lab reports and code from each stage in the process
+This repository stores the code for our romi project that was developed over the 10 weeks of the Winter 2026 quarter at California Polytechnic State University, San Luis Obispo.
+
+https://github.com/spluttflob/ME405-Support?tab=readme-ov-file
