@@ -28,3 +28,9 @@ Lab 0x05 - Line Following
   
 Lab 0x06 - State Estimation
   TWe wrote a new hardware driver for our BNO055 inertial measurement unit (IMU) and then used the data to develop a state-estimation algorithm that allows us to combine data from our sensors with our model of Romi from HW 0x03 to better predict the true state of Romi.
+
+Misc Files contains extra memos and files that were used througout the project but were not necessary for any one lab deliverable
+
+Term Project contains the final code necessary to run the course with our Romi
+
+The excel sheet provides a pinout of our wiring with romi and associated boards. Ideally with the same hardware and this sheet anyone would be able to reproduce our results.
