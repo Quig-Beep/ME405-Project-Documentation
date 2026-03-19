@@ -49,7 +49,7 @@ Bump Sensor - Simple switch that would trigger an interrupt when closed, alertin
 
 The ROMI Pin Configuration excel spreadsheet provides a pinout of our wiring with romi and associated boards. Ideally with the same hardware and this sheet anyone would be able to reproduce our results. The excel sheet also contains links to useful datasheets for the BNO055 IMU, STM board, HC-05 (bluetooth module we did not end up using), and a website for all the pin functionalities on our board. A wiring diagram for Romi can be viewed below, as well as a closeup video of Romis construction:
 
-![Alt text for SVG](pasted_svg_url)
+![Alt text for SVG]([pasted_svg_url](https://raw.githubusercontent.com/Quig-Beep/ME405-Project-Documentation/e1f92f7fee3fe6e043e1e833e1b11d28246ea486/Wiring_Diagram/WiringDiagram.svg))
 
 
 [![Video Title](https://img.youtube.com/vi/7AZLOIbpHas/0.jpg)](https://www.youtube.com/watch?v=7AZLOIbpHas)
