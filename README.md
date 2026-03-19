@@ -34,3 +34,5 @@ Misc Files contains extra memos and files that were used througout the project b
 Term Project contains the final code necessary to run the course with our Romi
 
 The excel sheet provides a pinout of our wiring with romi and associated boards. Ideally with the same hardware and this sheet anyone would be able to reproduce our results.
+
+[![Video Title](https://img.youtube.com/vi/zxmrBjntwv4/0.jpg)](https://www.youtube.com/watch?v=zxmrBjntwv4)
