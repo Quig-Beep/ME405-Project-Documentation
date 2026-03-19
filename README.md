@@ -52,3 +52,18 @@ The ROMI Pin Configuration excel spreadsheet provides a pinout of our wiring wit
 <img width="843" height="838" alt="WiringDiagram" src="https://github.com/user-attachments/assets/b126c080-8138-42dc-ac5d-6ca469e84e5d" />
 
 [![Video Title](https://img.youtube.com/vi/7AZLOIbpHas/0.jpg)](https://www.youtube.com/watch?v=7AZLOIbpHas)
+
+4	M2.5 x 8mm Standoff
+4	M2.5 x 10mm Standoff
+4	M2.5 x 30mm Standoff
+4	M2.5 x 6mm Socket Head Cap Screw
+4	M2.5 x 8mm Socket Head Cap Screw
+4	M2.5 x 10mm Socket Head Cap Screw
+8	M2.5 Nylon Lock Nuts
+8	M2.5 Nylon Washer
+1	Acrylic Romi-to-Shoe Adapter
+1	BNO055 IMU Breakout Board
+1	Modified Shoe of Brian (w/o Bead or Resistors)
+1	Nucleo L476RG
+1	Romi Chassis w/ Motors, Encoders, Wheels, and Casters
+1	USB-A to USB-Mini B Cable
