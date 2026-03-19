@@ -1,12 +1,12 @@
 # ME405-Project-Documentation
 This repository stores the code for our romi project that was developed over the 10 weeks of the Winter 2026 quarter at California Polytechnic State University, San Luis Obispo. 
 
-Our documentation pages are located here: #add documentation when finished
+Our documentation pages for our code are located here: #add documentation when finished
 
 Documentation for all code we were given for this project can be located below in Dr. Ridgleys own Github repository:
 https://github.com/spluttflob/ME405-Support?tab=readme-ov-file
 
-The labs we completed will be briefly described here and are covered in more detail in our documentation:
+Prior to the final project, we had 7 labs to build and program Romi to get it into a state to complete the final project. These labs ranged in complexity and scope but all worked to advance our knowledge of our hardware as well as micropython. All the code and the reports generated for these labs can be viewed in this repository as well. The labs we completed will be briefly described here:
 
 Lab 0x00 - Interrupt Callbacks and ADC Reading
   We utilized an analog to digital converter, commonly referred to as an ADC, to measure the capacitor voltage in an RC circuit. We generated a step-response plot showing the ADC voltage plotted against time and determined a time constant based on the step response data. This value was compared to one calculated from the component values in our RC circuit.
@@ -29,14 +29,26 @@ Lab 0x05 - Line Following
 Lab 0x06 - State Estimation
   TWe wrote a new hardware driver for our BNO055 inertial measurement unit (IMU) and then used the data to develop a state-estimation algorithm that allows us to combine data from our sensors with our model of Romi from HW 0x03 to better predict the true state of Romi.
 
-Misc Files contains extra memos and files that were used througout the project but were not necessary for any one lab deliverable
+Misc Files contains extra memos and files that were used througout the project but were not necessary for any one lab deliverable.
 
-Term Project contains the final code necessary to run the course with our Romi
+Task_Diagram and Wiring_Diagram contain files generated for this readme in multiple formats.
 
-The excel sheet provides a pinout of our wiring with romi and associated boards. Ideally with the same hardware and this sheet anyone would be able to reproduce our results.
+Term Project contains the final code necessary to run the course with our Romi. A video of Romi running the complete course can be viewed below:
 
 [![Video Title](https://img.youtube.com/vi/zxmrBjntwv4/0.jpg)](https://www.youtube.com/watch?v=zxmrBjntwv4)
 
+A closer look at Romi can also be viewed here:
+
 [![Video Title](https://img.youtube.com/vi/KbessiJycDM/0.jpg)](https://www.youtube.com/watch?v=KbessiJycDM)
+
+Our robot was designed with 4 sensor types to help detect its environment: 
+Quadrature encoders - Read encoder counts with hall effect sensors to detect motor movement
+Internal Measurement Unit - Gave accelerometer and gyroscope data to calculate accurate headings and feed data to a state estimator to infer X and Y position of Romi
+Line Sensor - Read IR reflectance of the ground below romi to determine if it was on top of a line or not
+Bump Sensor - Simple switch that would trigger an interrupt when closed, alerting Romi that it had hit something
+
+The ROMI Pin Configuration excel spreadsheet provides a pinout of our wiring with romi and associated boards. Ideally with the same hardware and this sheet anyone would be able to reproduce our results. The excel sheet also contains links to useful datasheets for the BNO055 IMU, STM board, HC-05 (bluetooth module we did not end up using), and a website for all the pin functionalities on our board. A wiring diagram for Romi can be viewed below, as well as a closeup video of Romis construction:
+
+
 
 [![Video Title](https://img.youtube.com/vi/7AZLOIbpHas/0.jpg)](https://www.youtube.com/watch?v=7AZLOIbpHas)
